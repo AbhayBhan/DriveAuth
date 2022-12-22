@@ -2,7 +2,7 @@ import React from 'react';
 import LoginPage from './components/authentication/LoginPage';
 import SignupPage from './components/authentication/SignupPage';
 import AuthProvider from './contexts/AuthContext';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import './styles/main.css'
 import Profile from './components/authentication/Profile';
 import PrivateRoute from './components/PrivateRoute';
@@ -11,7 +11,7 @@ import Dashboard from './components/Dashboard';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AuthProvider>
         <Routes>
           <Route exact path='/' element={<PrivateRoute />}>
@@ -23,7 +23,7 @@ function App() {
           <Route element={<ForgotPass />} path="/forgotpassword" />
         </Routes>
       </AuthProvider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
