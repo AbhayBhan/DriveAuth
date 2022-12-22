@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DriveAuth/static/css/main.690acf37.css",
+    "main.js": "/DriveAuth/static/js/main.ca70f384.js",
+    "index.html": "/DriveAuth/index.html",
+    "main.690acf37.css.map": "/DriveAuth/static/css/main.690acf37.css.map",
+    "main.ca70f384.js.map": "/DriveAuth/static/js/main.ca70f384.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.690acf37.css",
+    "static/js/main.ca70f384.js"
+  ]
+}
